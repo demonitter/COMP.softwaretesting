@@ -24,7 +24,6 @@ jobs:
 
    
     - name: Run tests
-      run: ci
       run: npm test
 
     - name: Coveralls GitHub Action
